@@ -1,7 +1,10 @@
+
 # ⚡ YT Downloader
 
 Minimal YouTube downloader built with Python.
 Fast, simple and focused — no bloat, no accidental playlist downloads.
+
+<img width="915" height="298" alt="Program-Demo" src="https://github.com/user-attachments/assets/049f7024-e590-4d71-9750-6db4b25f5d62" />
 
 ---
 
