@@ -1,17 +1,79 @@
-## YT Downloader
+# ⚡ YT Downloader
 
-__Description__
-- YT Downloader is a simple program made with **Python** which can download videos from youtube, horizontal and vertical
-  videos __**without limit**__, is ugly, inefficient (idk i didnt check that) but functional.
+Minimal YouTube downloader built with Python.
+Fast, simple and focused — no bloat, no accidental playlist downloads.
 
-__Instruccions__
-- **First of all**, download the latest release, open the **requirements.md** and the **README.md** file, you need **Python**
-  installed (i develop this with Python 3.13.5) and run the **`cli.py`** file with this command
-  ```Bash/PowerShell/CMD
-  python cli.py
-  ```
-   and after that, paste or type the url of the video, and wait for the download complete.
-  
-__Team__
-- The Exterco Studios team is made for 1 person (right now, maybe later it elevates to 2) but i give constant mini updates.
-  If you have a problem, open a pull request and give it a tag and wait for the update.
+---
+
+## 🚀 Features
+
+* ✔ Download single YouTube videos (no playlist spam)
+* ✔ Works with horizontal and vertical videos
+* ✔ Lightweight and simple CLI
+* ✔ Built on top of yt-dlp (reliable backend)
+
+---
+
+## 📦 Requirements
+
+* Python 3.10+
+* yt-dlp
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Usage
+
+Run the CLI:
+
+```bash
+python cli.py
+```
+
+Then paste a YouTube URL and wait for the download.
+
+---
+
+## 🧠 Example
+
+```bash
+> python cli.py
+Paste URL: youtube.com/watch?v=xxxx
+Downloading...
+Done!
+```
+
+---
+
+## ⚠️ Notes
+
+* Only supports YouTube for now
+* Downloads a single video (playlists are ignored by design)
+
+---
+
+## 🛠️ Roadmap
+
+* [ ] Audio-only mode (mp3)
+* [ ] Quality selector
+* [ ] Better CLI options
+
+---
+
+## 👤 Author
+
+Made by Exterco Studios (solo project for now)
+
+---
+
+## 💬 Contributing
+
+Found a bug or want to improve something?
+
+* Open an issue
+* Or submit a pull request
