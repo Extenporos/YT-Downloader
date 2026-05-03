@@ -14,6 +14,7 @@ Fast, simple and focused — no bloat, no accidental playlist downloads.
 * ✔ Works with horizontal and vertical videos
 * ✔ Lightweight and simple CLI
 * ✔ Built on top of yt-dlp (reliable backend)
+* ✔ Can separate video and audio (with the original video as residue)
 
 ---
 
@@ -21,6 +22,7 @@ Fast, simple and focused — no bloat, no accidental playlist downloads.
 
 * Python 3.10+
 * yt-dlp
+* FFmpeg 1.3+
 
 Install dependencies:
 
@@ -47,7 +49,6 @@ Then paste a YouTube URL and wait for the download.
 ```bash
 > python cli.py
 Paste URL: youtube.com/watch?v=xxxx
-Downloading...
 Done!
 ```
 
